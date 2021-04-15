@@ -1,15 +1,12 @@
 import React from 'react';
-import Liandkey from './components/listandkeys'
-import Eipai from './components/api'
+import Form from './components/submitform'
 
 const App = () => (
 
   <div>
-    <h1>Prueba a ver si funciona el componente</h1>
-    <Liandkey/>
-    <Eipai/>
+  <h1>Prueba a ver si funciona el componente</h1>
+  <Form />
   </div>
-
 )
 
 
